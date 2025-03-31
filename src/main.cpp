@@ -662,7 +662,6 @@ void brainDisplay() {
 void lbSet() {
   double pos = lbL.position(degrees);
   while (fabs(pos) < 40) {
-    c.Screen.print("HELLO");
     lbL.spin(forward, 80, pct);
     lbR.spin(forward, 80, pct);
   }
