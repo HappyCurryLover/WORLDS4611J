@@ -689,7 +689,6 @@ void lbReset() {
   lbR.stop(hold);
 }
 
-
 void colorSortRing() {
   wait(18, msec);
   intakeMotor.spin(reverse, 100, pct);
